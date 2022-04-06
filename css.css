@@ -557,4 +557,9 @@ width: 100%;
       margin: 2% 0;
    }
 
+   .closed_img {
+      right: 47%;
+      bottom: -27%;
+   }
+
 }
