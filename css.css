@@ -558,7 +558,9 @@ width: 100%;
    }
 
    .closed_img{
-      right: 47%;
+      position: absolute;
+      width: 30px!important;
+      right: 45%;
       bottom: -27%;
    }
 
