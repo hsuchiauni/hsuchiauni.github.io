@@ -1,0 +1,560 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+.body{
+   width: 100%;
+   height: 100%;
+}
+
+.popup-content {
+   display: none;
+}
+
+.popup-content-active {
+   display: block;
+}
+
+p{
+   margin: 0;
+   font-size: 30px;
+}
+
+.top-line{
+   height: 1vh;
+   background-color: #995200;
+}
+
+.vision-area{
+   position: relative;
+}
+
+
+.vision{   
+width: 100%;
+}
+
+.vision-area img{
+   width: 100%;
+} 
+
+.mb{
+   display: none;
+}
+
+.popup-buttom{
+   font-size: 30px;
+   height: auto;
+   background-color:rgb(154 83 0);
+   color: rgb(255, 255, 255);
+   padding: 1.2% 2.5%;
+   border-radius:50px;
+   position: absolute;
+   top:75%;
+   right:6%;
+   animation:pulse infinite;
+   animation-duration: 0.8s;
+   border: none;
+}
+
+.blcak-overlay{
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   background-color: #ffde60;
+   opacity: 80%;
+   top: 0%;
+   left: 0%;
+   z-index: 1000;
+}
+
+.business-card-area{
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   z-index: 1001;
+   top:0%;
+   left:0%;
+}
+
+.business-card-box-area{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.business-card-bigbox{
+   position: relative;
+   min-width: 50vw;
+   min-height: 27vh;
+   background-color: #fff5d7;
+   border-style: solid;
+   border-color: #995200;
+   border-width: 5px;
+   border-radius: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url(/img/business-card-bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.closed_img{
+   position: absolute;
+   width:30px!important;
+   right: 2%;
+   bottom: 80%;
+}
+
+.business-card-tittle{
+   font-size: 35px;
+   font-weight: bold;
+   text-align: center;
+   color: #995200;
+   margin:4% 0;
+}
+
+.business-card-list-box{
+   padding: 0;
+   
+}
+
+.business-card-list{
+   list-style: none;
+   font-size: 25px;
+}
+
+
+.body-area{
+   background-color: #fbf8e9;
+   
+}
+.information-1 {
+   display: flex;
+   padding: 0px 8%;
+   margin-bottom: 50px;
+}
+
+.information-2{
+    padding: 0px 8%;
+    margin-bottom: 5%;
+}
+
+
+.information-1-aboutme-area {
+   width: 55%;
+   margin:2% 0 0 0%;
+   
+}
+
+.information-1-education-area {
+   width: 50%;
+   margin:2% 0 0 3%;
+   
+}
+
+.information-1-box{ 
+   min-height: 38vh;
+   box-shadow: 3px 3px 3px 0px rgb(194 194 194);
+   padding: 2%;
+   text-align: justify;
+   background-color: #fff;
+   border-radius: 8px;
+}
+
+
+.career-time{
+   margin: 0;
+   font-size: 20px;
+   color: #838383;
+}
+
+.topic{
+   display: block;
+   color: #995200;
+   font-size: 35px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+
+.school-skill-area{
+   display: flex;
+   margin: 2px 0;
+}
+
+.school-skill{
+   width: 100px;
+   background-color: #ffde60;
+   margin: 2px;
+   padding: 6px;
+   text-align: center;
+   font-size: 19px;
+}
+
+
+.skill-area{
+   display: flex;
+   margin: 2px 0;
+}
+
+.skill{
+   width: 100px;
+   background-color: #ffde60;
+   margin: 3px;
+   padding: 5px;
+   text-align: center;
+   font-size: 19px;
+}
+
+
+.information-2-area{
+   width: 100%;
+   display: flex;
+   flex-direction: column;  
+   
+}
+
+
+.information-2-bigbox{
+   box-shadow: 3px 3px 3px 0px rgb(194 194 194);
+   width: 100%;
+   margin-bottom: 23px;
+   text-align: justify;
+   background-color: #fff;
+   border-radius: 8px;
+}
+
+.information-2-box{
+   width: 100%;
+   display: flex;
+   padding: 1%;
+}
+
+
+.information-2-box-content{
+   margin-right: 6%;
+   width: 44%;
+}
+
+.career-area{
+   display: flex;
+}
+
+
+.career{
+   margin: 0;
+   font-size: 24px;
+   font-weight: bold;
+}
+
+
+.career-directions {
+   font-size: 18px;
+   width: 75%;
+}
+
+
+.workship-list{
+   color: rgb(107, 49, 2);
+   margin:10px 0 0 0 ;
+   font-size: 20px;
+}
+
+
+.soft-area{
+   display: flex;
+   margin-top: 5px;
+}
+
+.soft-skill{
+   font-size: 20px;
+   margin: 0;
+}
+
+.soft-pic{
+   width: 60px;
+   height: auto;
+   margin: 6px;
+}
+
+.information-3{
+   padding: 2% 8%;
+   background-image: url(img/workship-bg.png);
+
+}
+
+.information-3-area{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 5%;
+   flex-wrap: wrap;
+}
+
+.information-3-bigbox{
+   width: 22%;
+}
+
+.information-3-box:hover{
+   transform: scale(1.05);
+   color: gray;
+}
+
+.information-3-box{
+   font-size: 19px;
+   display: block;
+   text-align: center;
+   background-color: #fff;
+   border-radius: 8px;
+   padding: 29px 16px;
+   text-decoration: none;
+   color: gray;
+   box-shadow: 3px 3px 3px 0px rgb(194 194 194);
+}
+
+.information-3-box-content{
+   display: flex;
+   justify-content: center;
+}
+
+.workship-pic{
+   width: 65%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 13px;
+
+}
+
+.workship-tittle{
+   font-size: 20px;
+   color: #838383;
+   text-align: center;
+   margin-top: 5%;
+}
+
+.footer{
+   background-color: #995200;
+   color: aliceblue;
+   text-align: center;
+   font-size: 15px;
+   padding: 1%;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+   .popup-buttom{
+      top:72%;
+      right:5%;
+   }
+
+
+   .career {
+      font-size: 22px;
+   }
+
+   .career-directions-box {
+      width: 67vw;
+   }
+
+   .information-1-box {
+      min-height: 48vh;    
+   }
+
+   .information-2-box-content {
+      margin-right: 2%;
+   }
+ 
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+   .popup-buttom{
+      font-size: 21px;;
+   }
+
+   .business-card-content{
+      width: 45vw;
+   }
+
+   .information-1-box {
+    min-height: 57vh;
+  
+   }
+
+   .career-directions {
+      font-size: 17px;
+  }
+
+  .school-skill{
+     font-size: 15px;
+  }
+
+   .skill{
+    width: 90px;
+   }
+
+   .career-area{
+    font-size: 18px;
+    flex-direction: column;
+   }
+
+   .career {
+    font-size: 18px;
+   }
+
+   .workship-list {
+      font-size: 15px;
+   }
+
+   .soft-skill{
+   font-size: 15px;
+   }
+
+   .soft-pic {
+      width: 57px;
+      height: auto;
+      margin-right: 6px;
+   }
+
+
+
+   .workship-pic {
+      width: 45%;
+  }
+
+  .workship-tittle {
+   margin: 1% 0 0 0;
+}
+
+.business-card-tittle{
+   font-size: 27px;
+}
+
+.business-card-list{
+   font-size: 18px;
+}
+
+
+
+ 
+}
+
+
+
+@media only screen and  (max-width: 425px) {
+   
+   .pc{
+      display: none;
+   }
+   
+   .mb{
+      display: block;
+   }
+
+   .popup-buttom{
+      font-size: 23px;
+      top:80%;
+      right: 5%;
+   }
+
+   .business-card-content{
+      width: auto;
+   }
+
+
+   .information-1{
+      flex-direction: column;
+   }
+   
+
+   .information-1-box {
+    min-height: auto;
+    box-shadow: 3px 3px 3px 0px rgb(194 194 194);
+    padding: 3%;
+   }
+
+   .information-1-aboutme-area {
+    width: auto;
+    margin-bottom: 18px;
+   }
+
+   .information-1-education-area {
+    width: auto;
+   margin: 0;
+   }
+
+   .career-directions {
+      font-size: 17px;
+      width: 100%;
+  }
+
+  .school-skill-area{
+   width: auto;
+   margin: 2px 0;
+   }
+
+   .school-skill{
+      width: auto;
+      
+      margin: 0 0 3px 3px;
+
+   }
+
+
+   .skill-area{
+      width: auto;
+      margin: 2px 0;
+
+   }
+
+
+   .skill{
+      margin: 0 0 3px 3px;
+      font-size: 16px;
+      width: 75px;
+   }
+
+   .information-2-box{
+      display: block;
+      padding: 3%;
+   }
+
+   .information-2-box-content {
+    margin-right: 0;
+    width: auto;
+    padding-top: 3px;
+   }
+
+   .information-3-bigbox {
+   width: 46%;
+   margin: 2%;
+    }
+
+    .business-card-bigbox{
+       border-width: 4px;
+    }
+
+
+   .business-card-box{
+      padding: 0 20px;
+   }
+
+   .business-card-tittle{
+      font-size: 21px;
+      margin: 2% 0;
+   }
+
+}

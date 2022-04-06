@@ -1,0 +1,255 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+.body{
+    width: 100%;
+    height: 100%;
+    background-color: #fbf8e9;
+}
+
+.top-line{
+    height: 1vh;
+    background-color: #995200;
+ }
+
+.portfolio-banner, .vision-area{
+    width: 100%;
+}
+
+.sort-box{
+    position: relative;
+    margin-top: 100px;
+    padding: 0 223px;
+}
+.sort-bar{
+    background-color: #fde7cc;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #edb900;
+    border-width: 4px;
+    text-align: center;
+    padding: 11px 70px;
+
+}
+
+.sort-area img{
+    position: absolute;
+    width: 100px;
+    left: 177px;
+    top: -46px;
+}
+
+.wireframe-list-area{
+    margin: 3% 0;
+}
+
+.wireframe-list-bigbox{
+    padding: 0 12%;
+}
+
+.wireframe-list-box{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.wireframe-list-detail-box{
+    padding: 5%;
+    box-shadow: 3px 3px 3px 0px rgb(194 194 194);
+
+}
+
+.wireframe-list-detail-bigbox{
+    width: 23%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+}
+
+.wireframe-tittle{
+    font-size: 24px;
+    color: #ecb818;
+    font-weight: bold;
+}
+
+
+.wireframe-banner{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 3% 0;
+
+}
+
+
+.wireframe-describe{
+    margin-top: 2%;
+    display: block;
+    height: 130px;
+}
+
+.buttom-area{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 20px;
+}
+
+.buttom-area a{
+    text-decoration: none;
+}
+
+.wireframe-buttom{
+    display: block;
+    color: #fff;
+    padding: 2px 6px;
+    background-color: rgb(237 185 0);;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.wireframe-buttom:hover{
+    transform: scale(1.1);
+    color: #fff;
+}
+
+.web-buttom{
+    display: block;
+    color: #fff;
+    padding: 2px 6px;
+    margin-left: 10px;
+    background-color: #b9b9b9;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.web-buttom:hover{
+    transform: scale(1.1);
+    color: #fff;
+}
+
+
+.back-button-area{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.back-button a{
+    display: block;
+    width: 100%;
+    color: rgb(237 185 0);
+    font-size: 27px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-style: solid;
+    border-color:rgb(237 185 0);
+    border-width:3px;
+    border-radius: 30px;
+    padding: 5px 30px;
+}
+
+.back-button a:hover{
+    color: rgb(237 185 0);
+    transform: scale(1.05);   
+}
+
+.footer{
+    background-color: #995200;
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+    padding: 1%;
+    margin: 0;
+ }
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+.wireframe-list-bigbox {
+     padding: 0px 10%;
+}
+
+.sort-box {
+    margin-top: 61px;
+    padding: 0 143px;
+}
+
+.sort-bar {
+    padding: 5px 24px 5px 67px;
+    border-width: 4px;
+}
+
+.sort-area img{
+    width: 85px;
+    left: 124px;
+    top: -37px;
+}
+
+.wireframe-tittle {
+    height: 50px;
+    display: block;
+    font-size: 19px;
+    overflow: hidden;
+}
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+    
+.sort-bar {
+    font-size: 26px;
+    border-width: 3px;
+}
+    
+.sort-area img {
+    width: 80px;
+    left: 99px;
+    top: -28px;
+}
+
+.wireframe-list-box {
+    display: inline-flex;
+}
+
+.wireframe-list-detail-bigbox {
+    width: 50%;
+}
+
+..wireframe-describe {
+    height: 109px;
+
+}
+
+
+@media only screen and (max-width: 425px) {
+
+.sort-box {
+    margin-top: 34px;
+    padding: 0 67px;
+}
+
+.sort-area img {
+    width: 58px;
+    left: 54px;
+    top: -24px;
+}
+
+.sort-bar {
+    font-size: 21px;
+}
+
+.wireframe-list-detail-bigbox {
+    width: 100%;
+}
+
+}
