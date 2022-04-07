@@ -197,22 +197,21 @@ width: 100%;
    margin: 2px;
    padding: 6px;
    text-align: center;
-   font-size: 19px;
+   border-radius: 5px;
 }
 
 
 .skill-area{
    display: flex;
-   margin: 2px 0;
+   margin: 7px 0;
 }
 
 .skill{
-   width: 100px;
    background-color: #ffde60;
    margin: 3px;
-   padding: 5px;
+   padding: 4px;
    text-align: center;
-   font-size: 19px;
+   border-radius: 5px;
 }
 
 
@@ -241,8 +240,7 @@ width: 100%;
 
 
 .information-2-box-content{
-   margin-right: 6%;
-   width: 44%;
+   width: 50%;
 }
 
 .career-area{
@@ -259,7 +257,6 @@ width: 100%;
 
 .career-directions {
    font-size: 18px;
-   width: 75%;
 }
 
 
@@ -372,7 +369,7 @@ width: 100%;
    }
 
    .information-2-box-content {
-      margin-right: 2%;
+
    }
  
 
@@ -402,10 +399,7 @@ width: 100%;
      font-size: 15px;
   }
 
-   .skill{
-    width: 90px;
-   }
-
+  
    .career-area{
     font-size: 18px;
     flex-direction: column;
