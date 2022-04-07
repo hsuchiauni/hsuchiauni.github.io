@@ -149,7 +149,6 @@ width: 100%;
 .information-1-aboutme-area {
    width: 55%;
    margin:2% 0 0 0%;
-   
 }
 
 .information-1-education-area {
@@ -189,7 +188,6 @@ width: 100%;
 }
 
 .school-skill{
-   width: 100px;
    background-color: #ffde60;
    margin: 2px;
    padding: 6px;
@@ -383,6 +381,11 @@ width: 100%;
    .information-1-box {
     min-height: 42vh;
   
+   }
+
+   .information-1-aboutme-area {
+      width: 51%;
+      margin:2% 0 0 0%;
    }
 
   
