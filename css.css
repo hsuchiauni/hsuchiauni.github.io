@@ -19,10 +19,7 @@
    display: block;
 }
 
-p{
-   margin: 0;
-   font-size: 30px;
-}
+
 
 .top-line{
    height: 1vh;
@@ -271,7 +268,6 @@ width: 100%;
 }
 
 .soft-skill{
-   font-size: 20px;
    margin: 0;
 }
 
@@ -359,7 +355,7 @@ width: 100%;
    }
 
    .career-directions-box {
-      width: 37vw;
+      width: 35vw;
    }
 
    .information-1-box {
@@ -429,6 +425,10 @@ width: 100%;
 
 .business-card-list{
    font-size: 18px;
+}
+
+.career-directions-box {
+   width: 40vw;
 }
 
 
