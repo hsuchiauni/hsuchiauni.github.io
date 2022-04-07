@@ -227,7 +227,6 @@ width: 100%;
    box-shadow: 3px 3px 3px 0px rgb(194 194 194);
    width: 100%;
    margin-bottom: 23px;
-   text-align: justify;
    background-color: #fff;
    border-radius: 8px;
 }
@@ -256,7 +255,7 @@ width: 100%;
 
 
 .career-directions {
-   font-size: 18px;
+   width: 441px;
 }
 
 
@@ -361,11 +360,11 @@ width: 100%;
    }
 
    .career-directions-box {
-      width: 67vw;
+      width: 37vw;
    }
 
    .information-1-box {
-      min-height: 48vh;    
+      min-height: 20vh;    
    }
 
    .information-2-box-content {
@@ -387,17 +386,9 @@ width: 100%;
    }
 
    .information-1-box {
-    min-height: 57vh;
+    min-height: 42vh;
   
    }
-
-   .career-directions {
-      font-size: 17px;
-  }
-
-  .school-skill{
-     font-size: 15px;
-  }
 
   
    .career-area{
@@ -497,12 +488,11 @@ width: 100%;
 
   .school-skill-area{
    width: auto;
-   margin: 2px 0;
+   margin: 7px 0;
    }
 
    .school-skill{
       width: auto;
-      
       margin: 0 0 3px 3px;
 
    }
@@ -510,7 +500,7 @@ width: 100%;
 
    .skill-area{
       width: auto;
-      margin: 2px 0;
+      margin: 7px 0;
 
    }
 
