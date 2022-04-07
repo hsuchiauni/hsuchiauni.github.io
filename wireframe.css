@@ -122,7 +122,7 @@
     color: #fff;
     padding: 2px 6px;
     margin-left: 10px;
-    background-color: #b9b9b9;
+    background-color: #5f8fff;
     text-align: center;
     border-radius: 10px;
 }
@@ -131,6 +131,25 @@
     transform: scale(1.1);
     color: #fff;
 }
+
+.notstarted-button{
+    color: #fff;
+    background-color: #b9b9b9;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2px 6px;
+    margin-left: 10px;
+   
+}
+
+.web-buttom{
+    display: block;
+    color: #fff;
+    padding: 2px 6px;
+    margin-left: 10px;
+   
+}
+
 
 
 .back-button-area{
@@ -157,6 +176,7 @@
     color: rgb(237 185 0);
     transform: scale(1.05);   
 }
+
 
 .footer{
     background-color: #995200;
